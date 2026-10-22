@@ -1384,7 +1384,7 @@ function appPhotos() {
     body: `<div class="bigtitle">Pustaka</div><div class="cnt">${vis.length} Foto</div>${groups.map((g) => `<div class="mon">${g.k}</div><div class="pgrid">${g.items.map((p) => `<div class="ptile" data-i="${vis.indexOf(p)}">${im(p.img)}</div>`).join("")}</div>`).join("")}`,
     act: '<span style="color:#007aff;font-size:17px">Pilih</span>',
     footer:
-      '<div class="seg"><span>Tahun</span><span>Bulan</span><span class="on">Semua Foto</span></div>',
+      '<div class="seg"><span>Tahun</span><span>Bulan</span><span class="on">Semua</span></div>',
   });
   el.querySelector(".back").style.visibility = "hidden";
   el.querySelectorAll(".ptile").forEach(
