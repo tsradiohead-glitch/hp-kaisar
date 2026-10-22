@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>HP Kaisar</title>
+<meta name="description" content="Kamis, 22 Oktober. Sastra lagi nunggu. Buka HP Kaisar dan ikutin ceritanya. Fan fiction.">
+<meta name="theme-color" content="#0b0b12">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<script>
+// tiap refresh: hapus service worker + cache lama, dan muat css/js dengan nomor versi baru
+(function () {
+  var v = Date.now();
+  try { if (navigator.serviceWorker) navigator.serviceWorker.getRegistrations().then(function (r) { r.forEach(function (x) { x.unregister(); }); }).catch(function () {}); } catch (e) {}
+  try { if (window.caches) caches.keys().then(function (k) { k.forEach(function (n) { caches.delete(n); }); }); } catch (e) {}
+  window.__v = v;
+  document.write('<link rel="stylesheet" href="assets/css/style.css?v=' + v + '">');
+})();
+</script>
+<link rel="manifest" href="assets/css/manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="HP Kaisar">
+</head>
+<body>
+<div id="stage">
+  <div id="phone">
+    <div id="screen">
+      <div id="status"><span id="st-time">07:42</span><span class="island"></span><span class="st-r">▂▄▆ <b>5G</b> <i class="bat"><i></i></i></span></div>
+      <div id="layers"></div>
+      <div id="toasts"></div>
+      <div id="homebar"></div>
+      <div id="gz-b" class="gz"></div><div id="gz-l" class="gz"></div>
+    </div>
+  </div>
+</div>
+<script>
+['core', 'data', 'app'].forEach(function (n) { document.write('<script src="assets/js/' + n + '.js?v=' + window.__v + '"><\/script>'); });
+</script>
+</body>
+</html>
