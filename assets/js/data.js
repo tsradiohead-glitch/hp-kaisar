@@ -4,7 +4,7 @@
 const STORY = {
   passcode: '1413',
   today: '2026-10-22',
-  start: '2026-10-22T07:42',
+  start: '2026-10-22T19:00',
   wallLock: 'assets/images/wallpaper/wallpaper.jpg',
   wallHome: 'assets/images/wallpaper/wallpaper-h.jpg',
   // wallpaper di dalam chat (kosongin '' kalau mau polos). chatWallDim = seberapa "dipucetin" biar bubble tetep kebaca (0 - 1)
@@ -109,14 +109,14 @@ const CHATS = [
     id: 'sastraR', app: 'imessage', name: 'Sastra R', person: 'SastraR',
     msgs: [
       ['date', '2026-10-22'],
-      ['them', 'hayo, kata jagad tadi ada yang ngajak kenalan', '07:34'],
-      ['me', 'plintir aja mulutnya, ngaco', '07:34'],
-      ['me', 'ngga aku tanggapin, sayang', '07:35'],
-      ['them', 'nyang mener?', '07:35'],
-      ['me', 'mener', '07:36'],
-      ['them', 'WKWKWK', '07:36'],
-      ['me', 'rewel, tunggu bentar', '07:37'],
-      ['them', 'ya sayang', '07:37'],
+      ['them', 'hayo, kata jagad tadi ada yang ngajak kenalan', '18.45'],
+      ['me', 'plintir aja mulutnya, ngaco', '18.45'],
+      ['me', 'ngga aku tanggapin, sayang', '18.46'],
+      ['them', 'nyang mener?', '18.46'],
+      ['me', 'mener', '18.47'],
+      ['them', 'WKWKWK', '18.47'],
+      ['me', 'rewel, tunggu bentar', '18.48'],
+      ['them', 'ya sayang', '18.48'],
     ],
   },
   {
@@ -207,8 +207,8 @@ const FAV = ['SastraR', 'Bunda Sastra', 'Ayah', 'Jagad', 'Dika', 'Janitra'];
 
 // Foto
 const PHOTOS = [
-  { img: 'assets/images/photo/photo_6255574563768963866_w.jpg', ts: '2026-10-20T13:14', place: 'Apart' },
-  { img: 'assets/images/photo/1b1e72f126947994abaf75186e86e17b.jpg', ts: '2026-10-20T13:14', place: 'Apart' },
+{ img: 'assets/images/photo/photo_6255574563768963866_w.jpg', ts: '2026-10-20T01:00', place: 'Apart' }, // <--- Diubah jadi T01:00
+  { img: 'assets/images/photo/1b1e72f126947994abaf75186e86e17b.jpg', ts: '2026-10-20T00:30', place: 'Apart' }, // <--- Diubah jadi T00:30
   { img: 'assets/images/photo/1d0837d05682c8bc3e689c1bdfa4f649.jpg', ts: '2026-10-19T20:55', place: 'Apart' },
   { img: 'assets/images/photo/5a2e1d68e1646b93bb96da2fd33f734c.jpg', ts: '2026-10-17T08:03', place: 'Apart' },
   { img: 'assets/images/photo/9d16bd6ec8b65c7dc950b110b56a30e5.jpg', ts: '2026-10-15T16:40', place: 'Apart' },
@@ -235,16 +235,10 @@ const PHOTOS = [
 const ALBUM = { name: 'Untuk Sastra-ku', by: 'Kaisar', cover: 'assets/images/music/a.jpg', updated: '2026-10-21T23:10' };
 const SONGS = [
   ["An Art Gallery Could Never Be Unique As You", "mrbld", "assets/audio/mrld-an-art-gallery-could-never-be-as-unique-as-you.mp3", "", "FvAKtaH6Yzw"],
-  ["You & I", "Diego Gonzalez", "assets/audio/You & I - Diego Gonzalez.mp3", "", "qb5c6rJqmc8"],
-  ["seasons", "wave to earth", "assets/audio/seasons - wave to earth.mp3", "", "M7R7-qnTsFw"],
   ["Best Part (feat. H.E.R.)", "Daniel Caesar, H.E.R.", "assets/audio/02 Daniel Caesar - Best Part (feat. H.E.R.).mp3", "", "EkbrLgM3xfA"],
   ["P.S. I LOVE YOU", "Paul Partohap", "assets/audio/Paul Partohap - P.S. I LOVE YOU.mp3", "", "RumTrTLv-Ks"],
-  ["Pretty Boy", "The Neighbourhood", "assets/audio/pretty boy.mp3", "", "MB6VwuKJY6M"],
-  ["Kiss It Better", "Rihanna", "assets/audio/Rihanna - Kiss It Better.mp3", "", "Ht2O3xYjJik"],
-  ["you!", "LANY", "assets/audio/1. LANY - you! (FLAC).mp3", "", "HEAn4FqXFY4"],
   ["The Most Beautiful Thing", "Bruno Major", "assets/audio/The Most Beautiful Thing - Bruno Major.mp3", "", "3gv-XKHj0rw"],
-  ["Fix You", "Coldplay", "assets/audio/Fix You ( 160kbps ).mp3", "", "Oncu0bgdcXU"],
-  ["Strawberries & Cigarettes", "Troye Sivan", "assets/audio/Strawberries and cigarettes  Troye Sivan.mp3", "", "Mw5mAozjC6M"],
+  ["Strawberries & Cigarettes", "Troye Sivan", "assets/audio/jmv_0214_thaisub_aeplephlng_strawberry_and_cigarette_troye_sivan.mp3", "", "Mw5mAozjC6M"],
 ];
 
 // Kalender
