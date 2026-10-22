@@ -224,7 +224,7 @@ const PHOTOS = [
   { img: 'assets/images/photo/HRnT3mvaoAAs7se.jpg', ts: '2026-08-28T18:40', place: 'Lotte World' },
   { img: 'assets/images/photo/HTmP4IRaEAAMLri.jpg', ts: '2026-08-20T15:12', place: 'Hongdae' },
   { img: 'assets/images/photo/HUFLbS9awAA9R5-.jpg', ts: '2026-08-15T20:10', place: 'Sinchon' },
-  { img: 'assets/images/photo/HURRHxOW0AA3E5M.jpg', ts: '2026-08-08T13:30', place: 'Apart lama' },
+  { img: 'assets/images/photo/photo_6255510487151875493_w.jpg', ts: '2026-08-08T13:30', place: 'Apart lama' },
   { img: 'assets/images/photo/HVH6YEGa4AEbtg8.jpg', ts: '2026-08-02T23:58', place: 'Hongdae' }
 ];
 
