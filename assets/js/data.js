@@ -109,14 +109,14 @@ const CHATS = [
     id: 'sastraR', app: 'imessage', name: 'Sastra R', person: 'SastraR',
     msgs: [
       ['date', '2026-10-22'],
-      ['them', 'hayo, kata jagad tadi ada yang ngajak kenalan', '18.45'],
-      ['me', 'plintir aja mulutnya, ngaco', '18.45'],
-      ['me', 'ngga aku tanggapin, sayang', '18.46'],
-      ['them', 'nyang mener?', '18.46'],
-      ['me', 'mener', '18.47'],
-      ['them', 'WKWKWK', '18.47'],
-      ['me', 'rewel, tunggu bentar', '18.48'],
-      ['them', 'ya sayang', '18.48'],
+      ['them', 'hayo, kata jagad tadi ada yang ngajak kenalan', '18:45'],
+      ['me', 'plintir aja mulutnya, ngaco', '18:45'],
+      ['me', 'ngga aku tanggapin, sayang', '18:46'],
+      ['them', 'nyang mener?', '18:46'],
+      ['me', 'mener', '18:47'],
+      ['them', 'WKWKWK', '18:47'],
+      ['me', 'rewel, tunggu bentar', '18:48'],
+      ['them', 'ya sayang', '18:48'],
     ],
   },
   {
@@ -207,8 +207,8 @@ const FAV = ['SastraR', 'Bunda Sastra', 'Ayah', 'Jagad', 'Dika', 'Janitra'];
 
 // Foto
 const PHOTOS = [
-{ img: 'assets/images/photo/photo_6255574563768963866_w.jpg', ts: '2026-10-20T01:00', place: 'Apart' }, // <--- Diubah jadi T01:00
-  { img: 'assets/images/photo/1b1e72f126947994abaf75186e86e17b.jpg', ts: '2026-10-20T00:30', place: 'Apart' }, // <--- Diubah jadi T00:30
+  { img: 'assets/images/photo/photo_6255574563768963866_w.jpg', ts: '2026-10-20T13:14', place: 'Apart' },
+  { img: 'assets/images/photo/1b1e72f126947994abaf75186e86e17b.jpg', ts: '2026-10-20T13:14', place: 'Apart' },
   { img: 'assets/images/photo/1d0837d05682c8bc3e689c1bdfa4f649.jpg', ts: '2026-10-19T20:55', place: 'Apart' },
   { img: 'assets/images/photo/5a2e1d68e1646b93bb96da2fd33f734c.jpg', ts: '2026-10-17T08:03', place: 'Apart' },
   { img: 'assets/images/photo/9d16bd6ec8b65c7dc950b110b56a30e5.jpg', ts: '2026-10-15T16:40', place: 'Apart' },
